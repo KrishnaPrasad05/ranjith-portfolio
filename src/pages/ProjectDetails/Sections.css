@@ -1,0 +1,339 @@
+.live-link-btn {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 26px;
+  border: none;
+  border-radius: 25px;   /* pill shape */
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.live-link-btn:hover {
+  background-color: #333;
+  transform: translateY(-2px);
+}
+
+.live-link-btn:active {
+  transform: scale(0.97);
+}
+
+/* Remove default bullets */
+.custom-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.custom-list li {
+  margin-bottom: 8px;
+  position: relative;
+
+}
+
+/* Small dash instead of bullet */
+.custom-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  color: #000;
+}
+
+.highlight-tag {
+  display: inline-flex;
+  align-items: stretch;      /* makes children same height */
+  background: #f1f1f1;
+  border-radius: 6px;
+  font-size: 14px;
+  overflow: hidden;          /* keeps edges clean */
+  
+}
+
+.tick-box {
+  background: #000;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10px;           /* horizontal padding only */
+  font-size: 14px;
+  padding: 15px;
+}
+
+.tag-text {
+  display: flex;
+  align-items: center;       /* vertical center text */
+          /* same vertical height as tick */
+  margin: 0;
+  padding: 15px;
+}
+
+/* Wrapper */
+.process-timeline {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: nowrap;
+}
+
+/* Horizontal line (desktop) */
+.process-timeline::before {
+  content: "";
+  position: absolute;
+  top: 14px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: #000;
+  z-index: 0;
+}
+
+/* Each step */
+.process-step {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  flex: 1;
+  min-width: 180px;
+}
+
+/* Marker */
+.process-marker {
+  width: 28px;
+  height: 28px;
+  background: #000;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 12px;
+  z-index: 1;
+}
+
+/* Card */
+.process-content {
+  background: #f6f5f5;
+  padding: 16px;
+  border-radius: 10px;
+  width: 100%;
+}
+
+/* List */
+.process-list {
+  padding-left: 18px;
+  text-align: left;
+  margin: 0;
+}
+
+.process-list li {
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+/* Dash list instead of bullets */
+.dash-list {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.dash-list li {
+  position: relative;
+  padding-left: 18px;
+  margin-bottom: 6px;
+  font-size: 14px;
+}
+
+.dash-list li::before {
+  content: "-";
+  position: absolute;
+  left: 0;
+  color: #000;
+}
+
+/* Image sizing */
+.three-col-image {
+  max-height: 500px;
+  object-fit: cover;
+}
+
+/* Divider line */
+.section-divider {
+  width: 80px;
+  height: 2px;
+  background: #000;
+}
+
+/* Dot list */
+.dot-list {
+  padding-left: 18px;
+  margin-bottom: 0;
+}
+
+.dot-list li {
+  margin-bottom: 6px;
+}
+
+.section-divider {
+  width: 80px;
+  height: 2px;
+  background: #000;
+}
+
+.dot-list {
+  padding-left: 18px;
+}
+
+.dot-list li {
+  margin-bottom: 6px;
+}
+
+.image-wrapper {
+  flex: 1;
+  min-height: 0;
+}
+
+.equal-img {
+  width: 100%;
+  height: auto;
+  object-fit: fit;   /* image fills available height */
+  border-radius: 6px;
+}
+
+.ux-section-title {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.ux-section-desc {
+  font-size: 16px;
+  color: #6c757d;
+  line-height: 1.6;
+}
+
+.ux-section-img {
+  max-height: 600px;
+  width: 100%;
+  object-fit: contain;
+}
+
+.feedback-title {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.feedback-card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.feedback-text {
+  font-size: 15px;
+  color: #6c757d;
+  margin-bottom: 15px;
+}
+
+.feedback-author {
+  display: inline-block;
+  background: #000;
+  color: #fff;
+  padding: 6px 16px;
+  border-radius: 25px;
+  font-size: 13px;
+  width: fit-content;
+}
+.sec-title {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.sec-desc {
+  font-size: 16px;
+  color: #6c757d;
+  line-height: 1.6;
+}
+
+.sec-divider {
+  width: 80px;
+  height: 3px;
+  background: #000;
+  margin: 0 auto;
+  border-radius: 2px;
+}
+
+.row-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.row-list {
+  list-style-type: disc;
+  padding-left: 20px;
+  color: #6c757d;
+  line-height: 1.6;
+}
+
+.row-img {
+  width: 100%;
+  object-fit: fit;
+  /* Adjust height to match content dynamically */
+  max-height: 300px;
+}
+@media (max-width: 992px) {
+    .section-title {
+    text-align: center;
+  }
+    .three-col-image {
+    max-height: 400px;
+  }
+  .process-timeline {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .process-step {
+    flex: 0 0 45%;
+    margin-bottom: 40px;
+  }
+
+  .process-timeline::before {
+    display: none; /* remove horizontal line */
+  }
+}
+
+@media (max-width: 576px) {
+  .process-timeline {
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 20px;
+  }
+
+  .process-timeline::before {
+    display: block;
+    width: 2px;
+    height: 100%;
+    left: 14px;
+    top: 0;
+  }
+
+  .process-step {
+    flex-direction: row;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .process-marker {
+    margin-bottom: 0;
+    margin-right: 12px;
+  }
+
+  .process-content {
+    width: 100%;
+  }
+}
