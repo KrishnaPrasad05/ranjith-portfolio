@@ -8,9 +8,9 @@ function Section10() {
 
     {/* COL 1 – TITLE */}
     <div className="col-12 col-lg-4">
-      <h2 className="feedback-title">
+      <h1 className="feedback-title" style={{color:'#5a5a5a'}}>
         Employer’s <br /> Feedback
-      </h2>
+      </h1>
     </div>
 
     {/* COL 2 – FEEDBACK */}

@@ -55,7 +55,7 @@ const processData = [
 const Section03 = () => {
   return (
     <div className="container py-5">
-      <h2 className="fw-bold mb-5 text-center">Process</h2>
+      <h2 className="fw-bold mb-5 text-center" style={{color:'#5a5a5a'}}>Process review</h2>
 
       <div className="process-timeline">
         {processData.map((step, index) => (
@@ -63,7 +63,7 @@ const Section03 = () => {
             <div className="process-marker">{index + 1}</div>
 
             <div className="process-content">
-              <h5 className="fw-bold mb-3">{step.title}</h5>
+              <h5 className="fw-bold mb-3" style={{color:'#5a5a5a'}}>{step.title}</h5>
               <ul className="process-list">
                 {step.points.map((point, i) => (
                   <li key={i}>{point}</li>

@@ -1,14 +1,15 @@
-import './Header.css'
+import { Link } from "react-router-dom";
+import "./Header.css";
 
 const Header = () => {
   return (
     <div className="container mt-3">
       <nav className="navbar navbar-expand-lg portfolio-navbar px-3 py-2">
 
-        {/* Name / Logo */}
-        <a className="navbar-brand fw-bold" href="#">
-          RANJITH<span className='text-success'>.</span>
-        </a>
+        {/* Logo */}
+        <Link className="navbar-brand fw-bold" to="/#home">
+          RANJITH<span className="text-success">.</span>
+        </Link>
 
         {/* Mobile Toggle */}
         <button
@@ -20,23 +21,29 @@ const Header = () => {
           <span className="navbar-toggler-icon"></span>
         </button>
 
-        {/* Links + Button */}
-        <div className="collapse navbar-collapse justify-content-center" id="portfolioNavbar">
-
+        <div
+          className="collapse navbar-collapse justify-content-center"
+          id="portfolioNavbar"
+        >
           {/* Center Links */}
           <ul className="navbar-nav mx-auto mb-2 mb-lg-0 text-center">
+
             <li className="nav-item">
-              <a className="nav-link" href="#home">Home</a>
+              <Link className="nav-link" to="/#home">Home</Link>
             </li>
+
             <li className="nav-item">
-              <a className="nav-link" href="#projects">Projects</a>
+              <Link className="nav-link" to="/#projects">Projects</Link>
             </li>
+
             <li className="nav-item">
-              <a className="nav-link" href="#about">About</a>
+              <Link className="nav-link" to="/#about">About</Link>
             </li>
+
             <li className="nav-item">
-              <a className="nav-link" href="#contact">Contact</a>
+              <Link className="nav-link" to="/#contact">Contact</Link>
             </li>
+
           </ul>
 
           {/* Right Button */}
@@ -45,7 +52,6 @@ const Header = () => {
               Get in Touch
             </button>
           </div>
-
         </div>
       </nav>
     </div>

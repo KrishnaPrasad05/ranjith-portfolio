@@ -11,6 +11,8 @@ import prince from "../assets/prince.png";
 import skyline from "../assets/skyline.png";
 import ProjectsCard from "../components/ProjectsCard";
 import '../App.css'
+import { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 
 const projects = [
   {
@@ -104,9 +106,16 @@ const projects = [
 ];
 
 const Projects = () => {
-  const handleOpen = (title) => {
-    alert(`Open project: ${title}`);
-  };
+  const navigate = useNavigate()
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth", // remove if you want instant
+    });
+  }, []);
+  function viewProjectDetails(){
+    navigate("/project-details")
+  }
 
   return (
     <div className="container py-5">
@@ -116,7 +125,7 @@ const Projects = () => {
           <ProjectsCard
             key={index}
             {...project}
-            onClick={() => handleOpen(project.title)}
+            onClick={viewProjectDetails}
           />
         ))}
       </div>

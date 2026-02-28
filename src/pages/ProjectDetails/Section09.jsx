@@ -7,7 +7,7 @@ function Section09() {
     <section className="container py-5">
 
   {/* Section Header */}
-  <h2 className="sec-title mb-2">Design Handover & QA</h2>
+  <h2 className="sec-title mb-2" style={{color:'#5a5a5a'}}>Design Handover & QA</h2>
   <p className="sec-desc mb-3">
     Each Solution and Product page followed a predefined structural logic to reduce confusion during implementation
   </p>
@@ -18,7 +18,7 @@ function Section09() {
 
     {/* LEFT COLUMN */}
     <div className="col-12 col-lg-4 mb-3 mb-lg-0">
-      <h5 className="row-title mb-2">Structured Component System</h5>
+      <h5 className="row-title mb-2" style={{color:'#5a5a5a'}}>Structured Component System</h5>
       <ul className="row-list">
         <li>Reusable layout templates</li>
         <li>Modular UI components</li>
@@ -43,7 +43,7 @@ function Section09() {
 
     {/* LEFT COLUMN */}
     <div className="col-12 col-lg-4 mb-3 mb-lg-0">
-      <h5 className="row-title mb-2">Design Documentation</h5>
+      <h5 className="row-title mb-2" style={{color:'#5a5a5a'}}>Design Documentation</h5>
       <ul className="row-list">
         <li>Detailed Figma file with organized components</li>
         <li>Auto-layout enabled structures</li>

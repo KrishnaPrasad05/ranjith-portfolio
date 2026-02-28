@@ -12,8 +12,10 @@ import prince from "../../assets/prince.png";
 import skyline from "../../assets/skyline.png";
 import { RiFullscreenFill } from "react-icons/ri";
 import PortfolioCarousel from "../../components/PortfolioCarousel"; // adjust path if needed
+import { useNavigate } from "react-router-dom";
 
 const PortfolioPage = () => {
+  const navigate =useNavigate()
   const projects = [
     {
       image: elint,
@@ -105,6 +107,10 @@ const PortfolioPage = () => {
     },
   ];
 
+  function viewProjects(){
+    navigate("/projects");
+  }
+
   return (
     <div>
       {/* Optional Hero or Page Title */}
@@ -113,7 +119,7 @@ const PortfolioPage = () => {
         Research Think Design Develop
       </p>
 
-      <button className="btn btn-light d-flex align-items-center">
+      <button className="btn btn-light d-flex align-items-center" onClick={viewProjects}>
         View Full Page <RiFullscreenFill style={{fontSize:'18px'}} className="ms-2" />
       </button>
     </div>

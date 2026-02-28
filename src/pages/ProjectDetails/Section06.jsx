@@ -7,7 +7,7 @@ function Section06() {
     <section className="container info-section py-5">
 
   {/* Section Header */}
-  <h2 className="info-sec-title mb-2">Accessibility</h2>
+  <h2 className="info-sec-title mb-2" style={{color:'#5a5a5a'}}>Accessibility</h2>
   <p className="info-sec-desc mb-4">
 I want to ensure our design is universal and works for everyone.  </p>
 
@@ -17,7 +17,7 @@ I want to ensure our design is universal and works for everyone.  </p>
     <div className="col-12 col-lg-6">
 
       <div className="info-block mb-3">
-        <h5 className="info-title">WCAG VALIDATION</h5>
+        <h5 className="info-title" style={{color:'#5a5a5a'}}>WCAG VALIDATION</h5>
         <p className="info-text">
           I’m working on the website to fully comply with industry’s Web Content Accessibility Guidelines.
         </p>
@@ -35,14 +35,14 @@ I want to ensure our design is universal and works for everyone.  </p>
       </div>
 
       <div className="info-block mb-3">
-        <h5 className="info-title">INCLUSIVE DESIGN</h5>
+        <h5 className="info-title" style={{color:'#5a5a5a'}}>INCLUSIVE DESIGN</h5>
         <p className="info-text">
           To get a buy-in from the business, I’ve arranged activities from Microsoft’s Inclusive Design Toolkit to introduce empathetic problem solving.
         </p>
       </div>
 
       <div className="info-block mb-3">
-        <h5 className="info-title">PERFORMANCE</h5>
+        <h5 className="info-title" style={{color:'#5a5a5a'}}>PERFORMANCE</h5>
         <p className="info-text">
          I’ve analysed the website using PageSpeed service for any performance issues, which are likely to affect accessibility and conversion rates. I’ve discussed these with our developer starting from optimising hi-res images that should improve loading times by 20%.
         </p>

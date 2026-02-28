@@ -1,7 +1,12 @@
 import React from "react";
 import "./PortfolioCarousel.css";
+import { useNavigate } from "react-router-dom";
 
 const PortfolioCarousel = ({ projects }) => {
+  const navigate=useNavigate();
+  function viewProjectDetails(){
+    navigate("/project-details")
+  }
   return (
     <div
       className="container mb-5"
@@ -42,7 +47,7 @@ const PortfolioCarousel = ({ projects }) => {
 
                   <button
                     className="btn btn-dark mt-3"
-                    onClick={() => window.open(project.liveLink || "#", "_blank")}
+                    onClick={viewProjectDetails}
                   >
                     Click to Open
                   </button>

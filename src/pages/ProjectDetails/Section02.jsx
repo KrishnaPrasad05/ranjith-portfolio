@@ -10,7 +10,7 @@ function Section02() {
     
     {/* LEFT */}
     <div className="col-lg-6">
-      <h3 className="fw-bold mb-3">My Goal</h3>
+      <h3 className="fw-bold mb-3" style={{color:'#5a5a5a'}}>My Goal</h3>
       <ul className="custom-list mt-3">
         <li>Simplify complex IoT systems visually</li>
         <li>Improve solution discovery across industries</li>
@@ -35,25 +35,25 @@ function Section02() {
 
     {/* LEFT */}
     <div className="col-lg-6">
-      <h3 className="fw-bold mb-3">Design Decisions</h3>
+      <h3 className="fw-bold mb-3" style={{color:'#5a5a5a'}}>Design Decisions</h3>
 
       <p>I’ve reviewed the current website to evaluate what works and what doesn’t – assumptions from my professional point of view.</p>
 
       <ul className="custom-list mb-4">
-        <li><b>Understood IoT products & technical architecture</b></li>
-        <li><b>Discussed with product & engineering teams</b></li>
+        <li><b style={{color:'#5a5a5a'}}>Understood IoT products & technical architecture</b></li>
+        <li><b style={{color:'#5a5a5a'}}>Discussed with product & engineering teams</b></li>
         <li>Identified primary user groups</li>
         <li>Industrial decision makers</li>
-        <li><b>Technical engineers</b></li>
-        <li><b>Non-technical business owners</b></li>
-        <li><b>Discussed with product & engineering teams</b></li>
+        <li><b style={{color:'#5a5a5a'}}>Technical engineers</b></li>
+        <li><b style={{color:'#5a5a5a'}}>Non-technical business owners</b></li>
+        <li><b style={{color:'#5a5a5a'}}>Discussed with product & engineering teams</b></li>
       </ul>
 
       {/* TAG WITH TICK ICON */}
      <div className="highlight-tag">
   
   <span className="tag-text">
-    Outcome : <b> Clear understanding of user knowledge levels</b>
+    Outcome : <b style={{color:'#5a5a5a'}}> Clear understanding of user knowledge levels</b>
   </span>
   <div className="tick-box">✔</div>
 </div>

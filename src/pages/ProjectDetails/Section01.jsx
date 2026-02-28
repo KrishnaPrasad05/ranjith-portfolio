@@ -11,11 +11,11 @@ const Section01 = () => {
 
           {/* LEFT COLUMN */}
           <div className="col-lg-6">
-            <h4 className="project-title">IoT Enterprise Platform – 55+ Page Website Design</h4>
+            <h1 className="project-title">IoT Enterprise Platform – 55+ Page Website Design</h1>
 
             <p className="project-meta">
-              <strong>Role:</strong> Solo UX/UI Designer <br />
-              <strong>Duration:</strong> 6 Months <br />
+              <strong className='mb-2'>Role:</strong> Solo UX/UI Designer <br />
+              <strong className='mb-2'>Duration:</strong> 6 Months <br />
               <strong>Scope:</strong> 35+ Solution Pages | 20+ Product Pages | Full Website Design
             </p>
 
@@ -51,7 +51,7 @@ const Section01 = () => {
         {/* BELOW CONTENT */}
         <div className="mt-5">
 
-          <h2 className='text-center'>This project was designed for an IoT solution provider serving both</h2>
+          <h2 className='text-center' style={{color:'#5a5a5a'}}>This project was designed for an IoT solution provider serving both</h2>
           <p className='text-center'>
             Enterprise / Premium industrial clients
           </p>
@@ -60,15 +60,15 @@ const Section01 = () => {
             General business owners & non-technical decision makers
           </p>
 
-          <h6 className='text-center'>The key challenge was making highly technical IoT systems understandable to both technical experts and normal users</h6>
+          <h6 className='text-center'  style={{color:'#5a5a5a'}}>The key challenge was making highly technical IoT systems understandable to both technical experts and normal users</h6>
 
-          <h5 className="mt-3 text-center">A thousand minds , one heartbeat</h5>
+          <h3 className="mt-3 text-center"  style={{color:'#5a5a5a'}}>A thousand minds , one heartbeat</h3>
 
           <div className="row mt-3">
 
             {/* COLUMN 1 */}
            <div className="col-md-6">
-              <h6>IoT solutions are often</h6>
+              <h5  style={{color:'#5a5a5a'}}>IoT solutions are often</h5>
               <ul>
                 <li>Highly technicale</li>
                 <li>Filled with jargon</li>
@@ -79,7 +79,7 @@ const Section01 = () => {
 
             {/* COLUMN 2 */}
             <div className="col-md-6">
-              <h6>The company had</h6>
+              <h5  style={{color:'#5a5a5a'}}>The company had</h5>
               <ul>
                 <li>35+ Solution offerings</li>
                 <li>20+ Hardware products</li>

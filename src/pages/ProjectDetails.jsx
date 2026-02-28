@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Section01 from './ProjectDetails/Section01'
 import Section02 from './ProjectDetails/Section02'
 import Section03 from './ProjectDetails/Section03'
@@ -11,6 +11,12 @@ import Section09 from './ProjectDetails/Section09'
 import Section06 from './ProjectDetails/Section06'
 
 function ProjectDetails() {
+  useEffect(() => {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth", // remove if you want instant
+      });
+    }, []);
   return (
     <div>
         <Section01/>

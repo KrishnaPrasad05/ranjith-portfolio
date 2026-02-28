@@ -6,7 +6,7 @@
   align-items: center;
   text-align: center;
   padding: 50px 20px;
-  background-color: #f8f8f8; /* optional, change if needed */
+  background-color: #ffffff; /* optional, change if needed */
 }
 
 /* Profile image */
@@ -41,7 +41,7 @@
 }
 
 .details-section {
-  background-color: #f8f8f8;
+  background-color: #ffffff;
 }
 
 .details-heading {

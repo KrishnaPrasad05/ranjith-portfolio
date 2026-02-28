@@ -9,7 +9,7 @@ function Section08() {
 
     {/* LEFT COLUMN */}
     <div className="col-12 col-lg-6 mb-4 mb-lg-0">
-      <h2 className="ux-section-title mb-3">Usability Testing</h2>
+      <h2 className="ux-section-title mb-3" style={{color:'#5a5a5a'}}>Usability Testing</h2>
 
       <p className="ux-section-desc mb-0">
         To make sure design is implemented to the best standard possible by liaising regularly with the development team
