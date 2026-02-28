@@ -1,0 +1,82 @@
+/* Reset Vite default styles that break Bootstrap */
+#root {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+/* Optional: Global body styling for portfolio */
+body {
+  background-color: #f8f9fa;
+  font-family: "Inter", sans-serif;
+}
+
+/* Make images responsive inside cards */
+.card-img-top {
+  width: 100%;
+  height: auto;        /* 🔥 important */
+  object-fit: contain; /* shows full image */
+  background-color: #f8f9fa; /* optional for empty space */
+}
+
+/* Portfolio card hover (if not already added) */
+.project-card {
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-6px) scale(1.01);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.24);
+}
+
+.project-title {
+  color: #535252ff;
+  font-weight: 500;
+  font-size: 22px;
+}
+
+/* Base → Mobile */
+.project-btn {
+  border-radius: 25px;
+  font-size: 12px;
+  padding: 10px 14px;
+}
+
+/* Tablet (≥768px) */
+@media (min-width: 768px) {
+  .project-btn {
+    font-size: 13px;
+    padding: 10px 16px;
+  }
+}
+
+/* Desktop (≥992px) */
+@media (min-width: 992px) {
+  .project-btn {
+    font-size: 14px;
+    padding: 11px 18px;
+  }
+}
+
+/* XL (≥1200px) */
+@media (min-width: 1200px) {
+  .project-btn {
+    font-size: 15px;
+    padding: 12px 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .project-title {
+    font-size: 26px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .project-title {
+    font-size: 32px;
+  }
+}
+

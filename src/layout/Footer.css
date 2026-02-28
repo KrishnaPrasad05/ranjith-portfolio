@@ -1,0 +1,89 @@
+.portfolio-footer {
+  background-color: #000; /* black background */
+  color: #fff;
+}
+
+/* Text sizes */
+.footer-text-32 {
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.footer-text-48 {
+    margin-top: -20px;
+  font-size: 44px;
+  font-weight: 500;
+}
+
+.footer-text-18 {
+    margin-top: -10px;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+/* Connect button */
+.footer-btn {
+  border-radius: 25px;
+  padding: 10px 25px;
+  font-size: 16px;
+  color: #000;
+  font-weight: 500;
+}
+
+/* Horizontal line */
+.footer-line {
+  width: 80%;
+  height: 1px; /* maximum thickness */
+  margin: 20px auto;
+  border-radius: 2px;
+
+  /* Gradient: thin ends (#ccc), thick middle (#fff) */
+  background: linear-gradient(
+    to right,
+    #404040 0%,     /* left thin end */
+    #6e6e6e 20%,    /* start of middle */
+    #fff 50%,    /* middle - bright and thick */
+    #6e6e6e 80%,    /* end of middle */
+    #404040 100%    /* right thin end */
+  );
+}
+
+/* Social icons */
+.social-icons a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 45px;
+  margin: 0 8px;
+  background: #fff;
+  color: #000;
+  border-radius: 50%;
+  font-size: 20px;
+  transition: transform 0.3s, background 0.3s, color 0.3s;
+}
+
+.social-icons a:hover {
+  background: #000;
+  color: #fff;
+  transform: scale(1.2);
+}
+
+/* Spacing between rows */
+.footer-row {
+  margin-bottom: 10px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .footer-text-48 {
+    font-size: 36px;
+  }
+
+
+  .social-icons a {
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+  }
+}

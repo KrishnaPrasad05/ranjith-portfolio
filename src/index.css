@@ -1,0 +1,30 @@
+/* Reset Vite default styles that break Bootstrap */
+#root {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+/* Optional: Global body styling for portfolio */
+body {
+  background-color: #f8f9fa;
+  font-family: "Inter", sans-serif;
+}
+
+/* Make images responsive inside cards */
+.card-img-top {
+  object-fit: cover;
+  height: 220px;
+}
+
+/* Portfolio card hover (if not already added) */
+.portfolio-card {
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.portfolio-card:hover {
+  transform: translateY(-6px) scale(1.01);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
