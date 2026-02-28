@@ -4,39 +4,42 @@ import sampleImg from "../../assets/spin.png";
 const Section04 = () => {
   return (
     <section className="container py-5">
+      <h2 className="section-title mb-2">User research</h2>
+  <p className="text-muted">
+    I want to understand the average user’s profile based on the current customer base, and prove my & business’ hypotheses..
+  </p>
       <div className="row g-4 align-items-center">
 
         {/* COLUMN 1 */}
         <div className="col-12 col-md-6 col-lg-4">
-          <h5 className="fw-bold">Challenges</h5>
+          <h5 className="fw-bold">AVERAGE USER PROFILE</h5>
 
           <ul className="dash-list">
-            <li>Complex user workflow</li>
-            <li>Low engagement rate</li>
-            <li>Inconsistent UI patterns</li>
-            <li>Navigation confusion</li>
-            <li>Poor mobile responsiveness</li>
+            <li>Junior to mid-weight graphic designer</li>
+            <li>21–30 years old | female</li>
+            <li>UK-based</li>
+            <li>interested in transitioning career into UX</li>
+            <li> can’t afford 3–12 months of work to study</li>
           </ul>
 
           <h5 className="fw-bold mt-4">Approach</h5>
           <p className="text-muted">
-            Focused on simplifying flows, improving visual hierarchy,
-            and creating a scalable design system for consistency.
+            I’ve arranged 10 calls via Zoom with previous customers to understand what influenced their decision to book for the course at The School of UX website:
+7 out of 10 said it’s to do with the practical curriculum of the course, where the remaining 3 said it was affordable price.
           </p>
         </div>
 
         {/* COLUMN 2 */}
         <div className="col-12 col-md-6 col-lg-4">
-          <h5 className="fw-bold">Research Insights</h5>
+          <h5 className="fw-bold">QUANTITATIVE STUDY</h5>
           <p className="text-muted">
-            Conducted stakeholder interviews and usability testing to
-            identify pain points and user expectations.
+            I wanted to quantify the feedback on the current website’s design. At the end of my user interviews I’ve asked attendees to assess the existing design of the website by completing a questionnaire that uses System Usability Scale (SUS).
           </p>
-
-          <h5 className="fw-bold mt-4">Design Solution</h5>
+          <hr />
+          <h5 className="fw-bold mt-4">SUS SCORE</h5>
           <p className="text-muted">
-            Delivered a modular UI with improved accessibility,
-            faster navigation, and better task completion rate.
+            I’ve calculated the score using SUS calculator in Excel I’ve created using relevant formulas:
+75 out of 100
           </p>
         </div>
 

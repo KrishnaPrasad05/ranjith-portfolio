@@ -5,10 +5,9 @@ function Section05() {
     <section className="container py-5">
 
   {/* Section Header */}
-  <h2 className="section-title mb-2">Research Insights</h2>
+  <h2 className="section-title mb-2">Information architecture</h2>
   <p className="text-muted">
-    Understanding user behaviour and identifying usability gaps
-    through structured research methods.
+    Since there were 55+ pages, structure was critical
   </p>
   <div className="section-divider mb-4"></div>
 
@@ -17,18 +16,17 @@ function Section05() {
     {/* LEFT COLUMN */}
     <div className="col-12 col-lg-4 mb-4 mb-lg-0">
 
-      <h6 className="fw-bold">Key Findings</h6>
+      <h6 className="fw-bold">I created:</h6>
       <ul className="dot-list mb-3">
-        <li>Users struggled with navigation flow</li>
-        <li>Low visibility of primary actions</li>
-        <li>Information hierarchy was unclear</li>
-        <li>Mobile layout caused friction</li>
+        <li>Industry-wise solution grouping</li>
+        <li>Product categorization by function</li>
+        <li>Consistent page hierarchy</li>
+        <li>Navigation logic for scalability</li>
       </ul>
 
-      <h6 className="fw-bold">Impact</h6>
+      <h6 className="fw-bold">Focus</h6>
       <p className="text-muted small">
-        These issues led to increased drop-offs and reduced task
-        completion rates across critical journeys.
+        Users should not feel overwhelmed.
       </p>
 
     </div>

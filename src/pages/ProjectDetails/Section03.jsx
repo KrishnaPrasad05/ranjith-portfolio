@@ -3,53 +3,51 @@ import "./Sections.css";
 
 const processData = [
   {
-    title: "Research",
+    title: " RESEARCH & UNDERSTANDING",
     points: [
+      "Understand IoT ecosystem (devices, sensors, data flow)",
       "Stakeholder interviews",
-      "User surveys",
-      "Competitor analysis",
-      "Market insights",
-      "Problem definition",
+      "User research (admins, operators, customers)",
+      "Define user needs & pain points"
     ],
   },
   {
-    title: "Define",
+    title: "STRATEGY & PLANNING",
     points: [
-      "User personas",
-      "Journey mapping",
-      "Pain point identification",
-      "HMW statements",
-      "Success metrics",
+      "Define problem statements",
+      "Feature prioritization",
+      "Information Architecture",
+      "User flows for device management & dashboards",
+      "Define KPIs & success metrics",
     ],
   },
   {
-    title: "Ideate",
-    points: [
-      "Brainstorming sessions",
-      "User flows",
-      "Information architecture",
-      "Sketching concepts",
-      "Wireframe planning",
-    ],
-  },
-  {
-    title: "Design",
+    title: "WIREFRAMING",
     points: [
       "Low-fidelity wireframes",
-      "High-fidelity UI",
-      "Design system setup",
-      "Prototyping",
-      "Accessibility checks",
+      "Dashboard layout structure",
+      "Data visualization planning",
+      "Real-time interaction design (alerts, status updates)",
+      "Responsive experience planning",
     ],
   },
   {
-    title: "Test",
+    title: "UI DESIGN & PROTOTYPING",
+    points: [
+      "High-fidelity UI design",
+      "Design system creation",
+      "Interactive prototypes",
+      "Micro-interactions (notifications, device states)"
+    ],
+  },
+  {
+    title: "TESTING & LAUNCH",
     points: [
       "Usability testing",
-      "A/B testing",
-      "Feedback analysis",
-      "Iteration cycles",
-      "Final validation",
+      "Performance & accessibility testing",
+      "Design handoff to development",
+      "UX QA & iteration",
+      "Post-launch improvements",
     ],
   },
 ];

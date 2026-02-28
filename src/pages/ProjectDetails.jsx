@@ -8,6 +8,7 @@ import Section07 from './ProjectDetails/Section07'
 import Section08 from './ProjectDetails/Section08'
 import Section10 from './ProjectDetails/Section10'
 import Section09 from './ProjectDetails/Section09'
+import Section06 from './ProjectDetails/Section06'
 
 function ProjectDetails() {
   return (
@@ -17,6 +18,7 @@ function ProjectDetails() {
         <Section03/>
         <Section04/>
         <Section05/>
+        <Section06/>
         <Section07/>
         <Section08/>
         <Section09/>

@@ -9,13 +9,10 @@ function Section08() {
 
     {/* LEFT COLUMN */}
     <div className="col-12 col-lg-6 mb-4 mb-lg-0">
-      <h2 className="ux-section-title mb-3">Usability Improvements</h2>
+      <h2 className="ux-section-title mb-3">Usability Testing</h2>
 
       <p className="ux-section-desc mb-0">
-        Focused on simplifying complex workflows, improving navigation clarity,
-        and creating a consistent visual hierarchy. The redesigned interface
-        reduced cognitive load and enhanced overall task efficiency across
-        multiple user scenarios.
+        To make sure design is implemented to the best standard possible by liaising regularly with the development team
       </p>
     </div>
 
