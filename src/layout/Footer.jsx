@@ -14,7 +14,7 @@ const Footer = () => {
 
       {/* Third row */}
       <p className="footer-row footer-text-18 ">
-        ranjithhr2923@gmail.com
+        ranjithr2923@gmail.com
       </p>
 
       {/* Fourth row - button */}
