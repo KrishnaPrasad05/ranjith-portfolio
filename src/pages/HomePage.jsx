@@ -12,7 +12,7 @@ function HomePage() {
       });
     }, []);
   return (
-    <div>
+    <div style={{marginTop:'80px'}}>
         <Hero/>
 <section id="projects"><PortfolioPage /></section>
 <MobileApp />

@@ -1,4 +1,4 @@
-
+import './Hero.css';
 import processImg from "../../assets/profblack.png"; // your image
 
 const About = () => {
@@ -20,12 +20,11 @@ const About = () => {
         </div>
 
         {/* Column 2 – Image */}
-        <div className="col-12 col-md-6 col-lg-4 text-center mb-4 mb-lg-0">
+        <div className="col-12 col-md-6 col-lg-4 text-center mb-4 mb-lg-0 ">
           <img
             src={processImg}
             alt="Design Process"
-            className="img-fluid rounded"
-            style={{ maxHeight: "400px", objectFit: "cover" }}
+            className="img-fluid rounded about-image"
           />
         </div>
 

@@ -4,7 +4,7 @@ import "./Header.css";
 const Header = () => {
   return (
     <div className="container mt-3">
-      <nav className="navbar navbar-expand-lg portfolio-navbar px-3 py-2">
+      <nav className="navbar navbar-expand-lg portfolio-navbar px-3 py-2 fixed-top">
 
         {/* Logo */}
         <Link className="navbar-brand fw-bold" to="/#home">
@@ -29,19 +29,19 @@ const Header = () => {
           <ul className="navbar-nav mx-auto mb-2 mb-lg-0 text-center">
 
             <li className="nav-item">
-              <Link className="nav-link" to="/#home">Home</Link>
+              <Link className="nav-link" to="/#projects">Work</Link>
             </li>
 
             <li className="nav-item">
-              <Link className="nav-link" to="/#projects">Projects</Link>
+              <Link className="nav-link" to="/#about">About Us</Link>
             </li>
 
             <li className="nav-item">
-              <Link className="nav-link" to="/#about">About</Link>
+              <Link className="nav-link" to="/#about">Experience</Link>
             </li>
 
             <li className="nav-item">
-              <Link className="nav-link" to="/#contact">Contact</Link>
+              <Link className="nav-link" to="/#contact">Resume</Link>
             </li>
 
           </ul>

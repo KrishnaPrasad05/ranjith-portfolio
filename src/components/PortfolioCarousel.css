@@ -1,72 +1,171 @@
-/* Container styling */
-.portfolio-carousel-container {
-  border: 1px solid #e5e3e3;
-  border-radius: 10px;
+/* Main wrapper */
+.portfolio-wrapper {
   padding: 15px;
   overflow: hidden;
 }
 
-/* Title responsive */
+/* Horizontal scroll container */
+.portfolio-scroll-wrapper {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+
+  /* professional scroll snapping */
+  scroll-snap-type: x mandatory;
+
+  /* smoother mobile scrolling */
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Hide scrollbar */
+.portfolio-scroll-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+/* Card */
+.portfolio-card {
+  flex: 0 0 60%;
+  max-width: 60%;
+  min-width: 60%;
+
+  background: #fff;
+  border-radius: 10px;
+  padding: 12px;
+  border: 1px solid #e5e3e3;
+
+  box-sizing: border-box;
+
+  /* snap position */
+  scroll-snap-align: start;
+
+  /* smooth hover */
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+/* Card hover */
+.portfolio-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+/* Reduce bootstrap column gap */
+.portfolio-card .row {
+  --bs-gutter-x: 6px;
+}
+
+/* Allow wrapping */
+.device-row {
+  flex-wrap: wrap;
+}
+
+/* Device value wrapping */
+.device-value {
+  max-width: 60%;
+  text-align: right;
+  word-break: break-word;
+}
+
+/* Title */
 .carousel-title {
-  font-size: 36px;
+  font-size: 26px;
   color: #656464;
-  text-align: left;
+  margin-bottom: 6px;
 }
 
-/* Image control */
+/* Description */
+.carousel-desc {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+/* Info rows */
+.info-row {
+  font-size: 13px;
+  margin-bottom: 4px;
+}
+
+/* Divider */
+.divider {
+  margin-bottom: 6px;
+}
+
+/* Button default */
+.open-btn {
+  margin-top: 8px;
+  font-size: 13px;
+  padding: 6px 12px;
+
+  background-color: #000000;   /* light grey */
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* When card is hovered */
+.portfolio-card:hover .open-btn {
+  background-color: #ffffff;   /* black */
+  color: #000000;
+  border: 1px solid black;
+}
+
+/* Image container */
+.image-container {
+  text-align: center;
+}
+
+/* Image */
 .carousel-image {
-  max-height: 320px;
+  max-height: 300px;
   object-fit: contain;
+  width: 100%;
+  display: block;
 }
 
-/* Carousel indicators styling */
-.carousel-indicators [data-bs-target] {
-  background-color: #000;
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-}
-
-/* Tablet view */
+/* Tablet */
 @media (max-width: 992px) {
-  .carousel-title {
-    font-size: 28px;
-    text-align: center;
-  }
 
-  .carousel-image {
-    max-height: 260px;
-    margin-top: 10px;
-  }
-}
-
-/* Mobile view */
-@media (max-width: 576px) {
-
-  .portfolio-carousel-container {
-    padding: 12px;
+  .portfolio-card {
+    flex: 0 0 85%;
+    max-width: 85%;
+    min-width: 85%;
   }
 
   .carousel-title {
     font-size: 22px;
-    text-align: center;
-  }
-
-  .carousel-item {
-    text-align: center;
   }
 
   .carousel-image {
     max-height: 200px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+
+  .portfolio-card {
+    flex: 0 0 95%;
+    max-width: 95%;
+    min-width: 95%;
+  }
+
+  .carousel-title {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .carousel-desc {
+    text-align: center;
+  }
+
+  .carousel-image {
+    max-height: 160px;
     margin-top: 10px;
   }
 
-  .carousel-item .d-flex {
-    font-size: 13px;
-  }
-
-  .btn {
-    font-size: 14px;
-    padding: 10px;
+  .open-btn {
+    width: 100%;
   }
 }

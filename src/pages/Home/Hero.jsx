@@ -25,7 +25,7 @@ const Hero = () => {
       <p className="hero-greeting mb-1">Hi, I'm</p>
 
       {/* Name */}
-      <h1 className="hero-name mb-2">RANJITH<span style={{color:'#9b9999ff'}}>.</span></h1>
+      <h1 className="hero-name">RANJITH<span style={{color:'#9b9999ff'}}>.</span></h1>
 
       {/* Role */}
       <p className="hero-role mb-0">UI/UX Designer & Product Designer</p>
@@ -38,7 +38,7 @@ const Hero = () => {
       <div className="row">
 
         {/* Column 1 - Experience */}
-        <div className="col-12 col-md-4 mb-4">
+        <div className="col-12 col-md-5 mb-4">
           <h3 className="details-heading mb-3">EXPERIENCE</h3>
           
           <div className="details-item mb-3">
@@ -56,7 +56,7 @@ const Hero = () => {
         </div>
 
         {/* Column 2 - Proficiency */}
-        <div className="col-12 col-md-4 mb-4">
+        <div className="col-12 col-md-5 mb-4">
           <h3 className="details-heading mb-3">PROFICIENCY</h3>
 
           <div className="details-item mb-3">
@@ -73,7 +73,7 @@ const Hero = () => {
         </div>
 
         {/* Column 3 - Contact */}
-        <div className="col-12 col-md-4 mb-4" style={{fontSize:'18px'}}>
+        <div className="col-12 col-md-2 mb-4" style={{fontSize:'18px'}}>
           <h3 className="details-heading mb-3">CONTACT</h3>
 
           <div className="details-item mb-3">

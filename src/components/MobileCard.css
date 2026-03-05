@@ -4,7 +4,7 @@
   overflow: hidden;
   min-height: 100%;
   /* Shadow */
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.282);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.282);
 
   /* Smooth animation */
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -13,7 +13,7 @@
 /* Hover effect */
 .case-card:hover {
   transform: translateY(-6px); /* lift up */
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.288); /* deeper shadow */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.288); /* deeper shadow */
 }
 
 /* Image column should match content height */

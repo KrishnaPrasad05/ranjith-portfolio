@@ -12,10 +12,12 @@
 /* Profile image */
 .hero-image img {
   width: 100%;       /* desktop size */
-  height: auto;
+  height: 500px;
   object-fit: cover;
   
 }
+
+
 
 /* Greeting */
 .hero-greeting {
@@ -25,12 +27,15 @@
 }
 
 /* Name */
-.hero-name {
-  font-size: 60px;
+.hero-name{
+  font-size: 64px;
   font-weight: 700;
   color: #000;
-  margin-bottom: 10px;
-  margin-top: -10px;
+
+  /* text shadow */
+ 
+  text-shadow: 2px 6px 20px rgba(78, 78, 78, 0.571);
+
 }
 
 /* Role */
@@ -64,7 +69,13 @@
   font-size: 14px;
 }
 
+.about-image{
+  max-height: 400px;
+  object-fit: cover;
 
+  /* shadow only for image */
+  box-shadow: 0px 12px 30px rgba(0,0,0,0.2);
+}
 
 
 

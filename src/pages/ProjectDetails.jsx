@@ -18,7 +18,7 @@ function ProjectDetails() {
       });
     }, []);
   return (
-    <div>
+    <div style={{marginTop:'80px'}}>
         <Section01/>
         <Section02/>
         <Section03/>

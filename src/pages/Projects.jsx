@@ -118,7 +118,7 @@ const Projects = () => {
   }
 
   return (
-    <div className="container py-5">
+    <div className="container py-5" style={{marginTop:'80px'}}>
         <p style={{textAlign:'center',color:'#565656ff',fontWeight:400,fontSize:'42px'}} >Research Think Design Develop</p>
       <div className="row">
         {projects.map((project, index) => (

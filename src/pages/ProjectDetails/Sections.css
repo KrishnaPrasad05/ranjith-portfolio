@@ -281,7 +281,7 @@
 
 .row-img {
   width: 100%;
-  object-fit: fit;
+  object-fit: contain;
   /* Adjust height to match content dynamically */
   max-height: 300px;
 }
